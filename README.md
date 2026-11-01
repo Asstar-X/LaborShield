@@ -105,6 +105,10 @@ cd LaborShield
 claude
 ```
 *(若希望全局使用，可将本仓库克隆至 `~/.claude/skills/labor-arbitration`)*
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/Asstar-X/LaborShield.git ~/.claude/skills/labor-arbitration
+```
 
 #### 实战场景
 > 程序员小张入职 5 年多，月薪 3.2 万元。2026 年 10 月公司 HR 口头通知“因业务架构调整，岗位撤销，明天不用来了，没有赔偿”。小张手头有劳动合同、工资银行流水和解除邮件截图。
@@ -142,7 +146,7 @@ claude
 
 #### 配置与启动
 Antigravity 原生支持 `.agents/skills/` 规范。在 Antigravity 中直接打开本目录即可自动加载 `arbitration-assistant` 技能。
-*(或全局安装：`mkdir -p ~/.gemini/config/skills && git clone <repo> ~/.gemini/config/skills/labor-arbitration`)*
+*(或全局安装：`mkdir -p ~/.gemini/config/skills && git clone https://github.com/Asstar-X/LaborShield.git ~/.gemini/config/skills/labor-arbitration`)*
 
 #### 实战场景
 > 运营小李被公司强制单方降薪 30% 并要求调岗至异地办公，小李明确不同意，公司威胁“不同意就按旷工开除”。小李想被迫解除劳动合同并索要经济补偿金（N）。
@@ -169,7 +173,7 @@ Codex CLI 兼容标准 Agent Skills：
 ```bash
 # 全局加载技能
 mkdir -p ~/.codex/skills
-git clone https://github.com/<your-username>/LaborShield.git ~/.codex/skills/labor-arbitration
+git clone https://github.com/Asstar-X/LaborShield.git ~/.codex/skills/labor-arbitration
 ```
 
 #### 实战场景
