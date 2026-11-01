@@ -1,0 +1,136 @@
+{
+  "city": "北京",
+  "benchmarks": {
+    "soc_avg_monthly": 11937.0,
+    "soc_avg_3x_cap": 35811.0,
+    "min_wage_monthly": 2420.0,
+    "article_47_finality_threshold": 29040.0,
+    "region_note": "北京市人社局社平工资及月最低工资标准基准"
+  },
+  "tenure": {
+    "start_date": "2021-07-01",
+    "end_date": "2026-10-15",
+    "total_calendar_days": 1933,
+    "years": 5,
+    "months": 3,
+    "days": 15,
+    "prior_affiliated_years": 0.0,
+    "n_un_capped": 5.5,
+    "has_pre_2008_tenure": false,
+    "pre_2008_n": 0.0,
+    "post_2008_n": 5.5,
+    "tenure_description": "5年3个月15天（折算工龄系数 N = 5.5）"
+  },
+  "wage": {
+    "months_counted": 12,
+    "total_gross_wages": 393800.0,
+    "monthly_bonus_prorated": 0.0,
+    "raw_avg_wage": 32816.67,
+    "min_wage_floor_applied": false,
+    "effective_avg_wage": 32816.67
+  },
+  "termination": {
+    "mode": "2N",
+    "claim_title": "违法解除劳动合同赔偿金（2N）",
+    "base_wage_used": 32816.67,
+    "n_raw": 5.5,
+    "n_used": 5.5,
+    "is_3x_capped": false,
+    "cap_3x_threshold": 35811.0,
+    "cap_explanation": "离职前12个月平均应得工资（32816.67元）未超过当地社平工资3倍（35811.00元），按实际平均应得工资基数（32816.67元）及实际折算年限（N=5.5，不受12年封顶限制）计算。",
+    "main_amount": 360983.37,
+    "notice_pay_amount": 0.0,
+    "total_termination_amount": 360983.37,
+    "formula": "32816.67元/月 × 5.5个月 × 2倍 = 360983.37元",
+    "legal_basis": "《中华人民共和国劳动合同法》第四十七条、第八十七条",
+    "warnings": [],
+    "statutory_conflicts": []
+  },
+  "double_wage": {
+    "claim_title": "未订立书面劳动合同二倍工资差额",
+    "months_claimed": 0.0,
+    "max_statutory_months": 11.0,
+    "amount": 0.0,
+    "formula": "32816.67元/月 × 0个月 × 100%（二倍工资差额） = 0.00元",
+    "legal_basis": "《中华人民共和国劳动合同法》第八十二条第一款；《劳动合同法实施条例》第六条、第七条"
+  },
+  "annual_leave": {
+    "claim_title": "未休带薪年休假工资报酬差额（200%部分）",
+    "daily_wage": 1508.81,
+    "untaken_days": 4.0,
+    "proration_note": "按确认未休年休假天数 4 天核算",
+    "amount": 12070.5,
+    "formula": "（32816.67元 ÷ 21.75天）× 4天 × 200% = 12070.50元",
+    "legal_basis": "《职工带薪年休假条例》第三条、第五条；《企业职工带薪年休假实施办法》第十条、第十一条、第十二条"
+  },
+  "overtime": {
+    "claim_title": "加班工资差额",
+    "overtime_wage_base": 28000.0,
+    "hourly_base": 160.92,
+    "weekday_hours": 0.0,
+    "weekend_hours": 96.0,
+    "holiday_hours": 16.0,
+    "weekday_amount": 0.0,
+    "weekend_amount": 30896.55,
+    "holiday_amount": 7724.14,
+    "already_paid_overtime": 0.0,
+    "amount": 38620.69,
+    "formula": "休息日加班：28000.00÷21.75÷8×96小时×200%=30896.55元；法定节假日加班：28000.00÷21.75÷8×16小时×300%=7724.14元 → 合计应补差额：38620.69元",
+    "legal_basis": "《中华人民共和国劳动法》第四十四条；《最高人民法院关于审理劳动争议案件适用法律问题的解释（一）》第四十二条"
+  },
+  "article_47_finality": {
+    "threshold_12x_min_wage": 29040.0,
+    "all_claims_final": false,
+    "claims": [
+      {
+        "index": 1,
+        "title": "请求裁决被申请人向申请人支付违法解除劳动合同赔偿金人民币 360983.37 元",
+        "category": "severance_or_damages",
+        "amount": 360983.37,
+        "formula": "32816.67元/月 × 5.5个月 × 2倍 = 360983.37元",
+        "legal_basis": "《中华人民共和国劳动合同法》第四十七条、第八十七条",
+        "is_article_47_final": false,
+        "finality_tag": "【非终局项】单项超过当地12个月最低工资标准（>29040.00元）或属非终局确认之诉"
+      },
+      {
+        "index": 2,
+        "title": "请求裁决被申请人向申请人支付2026年10月1日至2026年10月15日正常出勤及法定节假日工资人民币 12873.56 元",
+        "category": "labor_remuneration",
+        "amount": 12873.56,
+        "formula": "28000.00元 ÷ 21.75天 × 10个计薪日 = 12873.56元",
+        "legal_basis": "《中华人民共和国劳动合同法》第三十条第一款",
+        "is_article_47_final": true,
+        "finality_tag": "【一裁终局项】单项未超当地12个月最低工资标准（≤29040.00元）"
+      },
+      {
+        "index": 3,
+        "title": "请求裁决被申请人向申请人支付未休带薪年休假工资报酬差额人民币 12070.50 元",
+        "category": "labor_remuneration",
+        "amount": 12070.5,
+        "formula": "（32816.67元 ÷ 21.75天）× 4天 × 200% = 12070.50元",
+        "legal_basis": "《职工带薪年休假条例》第三条、第五条；《企业职工带薪年休假实施办法》第十条、第十一条、第十二条",
+        "is_article_47_final": true,
+        "finality_tag": "【一裁终局项】单项未超当地12个月最低工资标准（≤29040.00元）"
+      },
+      {
+        "index": 4,
+        "title": "请求裁决被申请人向申请人支付加班工资差额人民币 38620.69 元",
+        "category": "labor_remuneration",
+        "amount": 38620.69,
+        "formula": "休息日加班：28000.00÷21.75÷8×96小时×200%=30896.55元；法定节假日加班：28000.00÷21.75÷8×16小时×300%=7724.14元 → 合计应补差额：38620.69元",
+        "legal_basis": "《中华人民共和国劳动法》第四十四条；《最高人民法院关于审理劳动争议案件适用法律问题的解释（一）》第四十二条",
+        "is_article_47_final": false,
+        "finality_tag": "【非终局项】单项超过当地12个月最低工资标准（>29040.00元）或属非终局确认之诉"
+      }
+    ],
+    "strategy_advice": "当地一裁终局单项阈值为 29040.00 元（月最低工资 2420.00 元 × 12）。已将各项仲裁请求按法定性质独立分项列明，确保低于阈值的独立请求项最大化争取一裁终局审查。"
+  },
+  "grand_total": 424548.12,
+  "mediation_tiers": {
+    "tier_A_optimal": 382093.31,
+    "tier_B_pragmatic": 318411.09,
+    "tier_C_floor": 275956.28
+  },
+  "warnings": [],
+  "statutory_conflicts": []
+}

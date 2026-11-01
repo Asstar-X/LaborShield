@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(arbitration-assistant)",
+      "Bash(python tools/labor_calc.py:*)",
+      "Bash(python3 tools/labor_calc.py:*)",
+      "Bash(python tools/generate_docket_docx.py:*)",
+      "Bash(python3 tools/generate_docket_docx.py:*)",
+      "Bash(python tools/verify_docket.py:*)",
+      "Bash(python3 tools/verify_docket.py:*)",
+      "Bash(python tools/evidence_timeline.py:*)",
+      "Bash(python3 tools/evidence_timeline.py:*)",
+      "Bash(python tools/lint_skills.py:*)",
+      "Bash(python3 tools/lint_skills.py:*)"
+    ]
+  }
+}

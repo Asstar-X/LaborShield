@@ -1,0 +1,23 @@
+# macOS / OS metadata
+.DS_Store
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Privacy Guard: Ignore real user evidence and generated personal dockets by default
+# Keep README.md and .gitkeep files tracked so the folder structure remains intact
+evidence/*
+!evidence/README.md
+!evidence/*/.gitkeep
+
+dockets/*
+!dockets/README.md
+!dockets/CASE_2026_001_示例科技/
+!dockets/CASE_2026_001_示例科技/**
+!dockets/CASE_2026_001_星云智联/
+!dockets/CASE_2026_001_星云智联/**
+!dockets/calc_result.json

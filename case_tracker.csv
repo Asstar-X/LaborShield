@@ -1,0 +1,2 @@
+case_id,respondent,jurisdiction,status,claim_total,is_final_47,filing_date,acceptance_deadline,evidence_deadline,hearing_date,award_date,litigation_deadline,docket_dir,notes
+CASE-2026-001,北京示例科技有限公司,北京市朝阳区劳动人事争议仲裁委员会,drafted,424548.12,partial_final,2026-10-27,,,,,,dockets/CASE_2026_001_示例科技,张明远案：已完成文书起草与静态校验(drafted)，违法解除2N+10月欠薪+未休年假+加班费共424548.12元
